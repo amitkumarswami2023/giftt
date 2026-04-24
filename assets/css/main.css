@@ -26,10 +26,10 @@ Version: 1.0.0
   --black: #000;
   --white: #fff;
   --theme: #f3ae3c;
-  --theme2: #ec4899;
-  --theme3: #05a4bf;
-  --theme4: #f72;
-  --theme5: #f6d258;
+  --theme2: #f3ae3c;
+  --theme3: #f3ae3c;
+  --theme4: #f3ae3c;
+  --theme5: #f3ae3c;
   --theme6: #a9e1ff;
   --header: #0f172a;
   --header2: #290f1c;
@@ -2423,6 +2423,7 @@ span {
 .header-3 {
   position: relative;
   z-index: 999;
+  background-color: #fff;
 }
 .header-3 .mega-menu-wrapper {
   margin: 0 30px;
@@ -12394,6 +12395,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: contain;
 }
 .brand-box-1 .brand-img-1 img {
   opacity: 0.4;
