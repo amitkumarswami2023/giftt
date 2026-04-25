@@ -4757,7 +4757,7 @@ span {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
@@ -12363,21 +12363,21 @@ span {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  opacity: 1;
-  -webkit-transform: scale(1, 0.3);
-  transform: scale(1, 0.3);
+  /* opacity: 1; */
+  /* -webkit-transform: scale(1, 0.3); */
+  /* transform: scale(1, 0.3); */
   /* background-color: var(--bg5); */
-  -webkit-transition: all 500ms ease;
+  /* -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  z-index: -1;
+  z-index: 1; */
 }
 /* .brand-box-1.style-4:hover {
   border: 1px solid var(--bg5);
 } */
-.brand-box-1.style-4:hover::before {
+/* .brand-box-1.style-4:hover::before {
   opacity: 1;
   transform: scale(1, 1);
-}
+} */
 /* .brand-box-1.style-4:hover .brand-img-1 {
   opacity: 1;
   filter: brightness(1.4);
