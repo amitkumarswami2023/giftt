@@ -4546,7 +4546,7 @@ span {
 }
 .section-title .sub-title {
   position: relative;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 600;
   color: var(--theme);
   text-transform: uppercase;
@@ -12381,10 +12381,10 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: contain;
 }
 .brand-box-1 .brand-img-1 img {
   opacity: 1;
+
   transition: all 0.6s ease;
   transform: translateY(0);
 }
