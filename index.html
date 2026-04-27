@@ -171,6 +171,78 @@
             color: #6c757d;
         }
     </style>
+    <style>
+        .advisor-card {
+            background: #fff;
+            padding: 40px 25px;
+            border-radius: 16px;
+            transition: 0.4s ease;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .advisor-card:hover {
+            background: #f3ae3c;
+            transform: translateY(-8px);
+        }
+
+        /* Image */
+        .advisor-img {
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #f3ae3c;
+        }
+
+        .advisor-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Text */
+        .advisor-card h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            transition: 0.3s;
+        }
+
+        .advisor-card p {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 15px;
+            transition: 0.3s;
+        }
+
+        /* LinkedIn Button */
+        .linkedin-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            background: #f3ae3c;
+            color: #fff;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        /* Hover Effects */
+        .advisor-card:hover h4,
+        .advisor-card:hover p {
+            color: #fff;
+        }
+
+        .advisor-card:hover .linkedin-btn {
+            background: #fff;
+            color: #f3ae3c;
+        }
+    </style>
 </head>
 
 <body>
@@ -1096,6 +1168,75 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Advisory Section Start -->
+                <section class="team-section section-padding">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 style="color:#f3ae3c; font-weight:700; font-size:36px;">
+                                Our Advisory Board
+                            </h2>
+                        </div>
+
+                        <div class="row g-4">
+
+                            <!-- Card 1 -->
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="advisor-card text-center">
+
+                                    <div class="advisor-img">
+                                        <img src="assets/img/home-1/advisory/mr.sudheer.png" alt="">
+                                    </div>
+
+                                    <h4>Sudhir Dasamantharao</h4>
+                                    <p>Board Chairman - GIFTT</p>
+
+                                    <a href="#" class="linkedin-btn">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="advisor-card text-center">
+
+                                    <div class="advisor-img">
+                                        <img src="assets/img/home-1/advisory/21.jpg" alt="">
+                                    </div>
+
+                                    <h4>Pravin Goel</h4>
+                                    <p>Managing Director - BlackRock</p>
+
+                                    <a href="#" class="linkedin-btn">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <div class="advisor-card text-center">
+
+                                    <div class="advisor-img">
+                                        <img src="assets/img/home-1/advisory/ds.png" alt="">
+                                    </div>
+
+                                    <h4>Manoj Kalra</h4>
+                                    <p>SVP & Group Head - Dsm-firmenich</p>
+
+                                    <a href="#" class="linkedin-btn">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
