@@ -242,6 +242,69 @@
             background: #fff;
             color: #f3ae3c;
         }
+
+        .program-card {
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 1px solid #eee;
+            position: relative;
+        }
+
+        .program-card:hover {
+            border-color: #f3ae3c;
+            transform: translateY(-6px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .program-card .img-box {
+            overflow: hidden;
+        }
+
+        .program-card img {
+            width: 100%;
+            transition: 0.4s;
+        }
+
+        .program-card:hover img {
+            transform: scale(1.08);
+        }
+
+        .program-card h5 {
+            font-weight: 700;
+            margin-bottom: 10px;
+            transition: 0.3s;
+        }
+
+        .program-card:hover h5 {
+            color: #f3ae3c;
+        }
+
+        .program-card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Arrow Button */
+        .arrow-btn {
+            width: 45px;
+            height: 45px;
+            background: #f3ae3c;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-top: 15px;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        .arrow-btn:hover {
+            background: #d99b2f;
+            transform: translateX(5px);
+        }
     </style>
 </head>
 
@@ -902,10 +965,7 @@
                     </div>
                 </section>
 
-
-
-                <!-- Service Section Start -->
-                <section class="service-section-5 fix section-padding">
+                <section class="py-5 bg-light">
                     <div class="container">
                         <div class="section-title-area align-items-end">
                             <div class="section-title style-5">
@@ -924,109 +984,122 @@
                             </a>
                         </div>
 
-                        <div class="service-wrapper-5">
+                        <div class="row g-4">
 
-                            <!-- Independent Directors -->
-                            <div class="service-box-style-5 bb-top wow fadeInUp" data-wow-delay=".3s">
-                                <div class="thumb">
-                                    <img src="assets/img/home-1/service/service-image-1.jpg" alt="img">
+                            <!-- Card 1 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="program-card h-100">
+                                    <div class="img-box">
+                                        <img src="assets/img/home-1/service/service-image-1.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+
+                                    <div class="content p-4">
+                                        <h5>Independent Directors</h5>
+                                        <p>
+                                            Designed to equip leaders with governance excellence, ethical
+                                            decision-making,
+                                            and strategic oversight skills for impactful board-level contributions.
+                                        </p>
+
+                                        <a href="#" class="arrow-btn">
+                                            <i class="fa-solid fa-arrow-right-long"></i>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="service-text">
-                                    <h3 class="title">
-                                        <a href="#">Independent Directors</a>
-                                    </h3>
-                                    <p class="text">
-                                        Designed to equip leaders with governance excellence, ethical decision-making,
-                                        and strategic
-                                        oversight skills for impactful board-level contributions.
-                                    </p>
-                                </div>
-                                <a href="#" class="arrow-icon">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
                             </div>
 
-                            <!-- Business Consulting -->
-                            <div class="service-box-style-5 bb-top active wow fadeInUp" data-wow-delay=".5s">
-                                <div class="thumb">
-                                    <img src="assets/img/home-1/service/service-image-2.jpg" alt="img">
+                            <!-- Card 2 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="program-card h-100">
+                                    <div class="img-box">
+                                        <img src="assets/img/home-1/service/service-image-2.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+
+                                    <div class="content p-4">
+                                        <h5>Business Consulting</h5>
+                                        <p>
+                                            Helping organizations and individuals adopt structured approaches, improve
+                                            decision-making,
+                                            and drive sustainable business growth.
+                                        </p>
+
+                                        <a href="#" class="arrow-btn">
+                                            <i class="fa-solid fa-arrow-right-long"></i>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="service-text">
-                                    <h3 class="title">
-                                        <a href="#">Business Consulting</a>
-                                    </h3>
-                                    <p class="text">
-                                        Helping organizations and individuals adopt structured approaches, improve
-                                        decision-making, and
-                                        drive sustainable business growth.
-                                    </p>
-                                </div>
-                                <a href="#" class="arrow-icon">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
                             </div>
 
-                            <!-- PMP -->
-                            <div class="service-box-style-5 bb-top wow fadeInUp" data-wow-delay=".3s">
-                                <div class="thumb">
-                                    <img src="assets/img/home-1/service/service-image-3.jpg" alt="img">
+                            <!-- Card 3 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="program-card h-100">
+                                    <div class="img-box">
+                                        <img src="assets/img/home-1/service/service-image-3.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+
+                                    <div class="content p-4">
+                                        <h5>PMP</h5>
+                                        <p>
+                                            A focused program to build project management expertise, enabling
+                                            professionals to plan,
+                                            execute, and deliver projects efficiently.
+                                        </p>
+
+                                        <a href="#" class="arrow-btn">
+                                            <i class="fa-solid fa-arrow-right-long"></i>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="service-text">
-                                    <h3 class="title">
-                                        <a href="#">PMP</a>
-                                    </h3>
-                                    <p class="text">
-                                        A focused program to build project management expertise, enabling professionals
-                                        to plan,
-                                        execute, and deliver projects efficiently.
-                                    </p>
-                                </div>
-                                <a href="#" class="arrow-icon">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
                             </div>
 
-                            <!-- Digital Marketing & Analytics -->
-                            <div class="service-box-style-5 bb-top bb-bottom wow fadeInUp" data-wow-delay=".5s">
-                                <div class="thumb">
-                                    <img src="assets/img/home-1/service/service-image-4.jpg" alt="img">
+                            <!-- Card 4 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="program-card h-100">
+                                    <div class="img-box">
+                                        <img src="assets/img/home-1/service/service-image-4.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+
+                                    <div class="content p-4">
+                                        <h5>Digital Marketing & Analytics</h5>
+                                        <p>
+                                            Empowering learners with data-driven marketing skills, analytics insights,
+                                            and digital strategies to succeed in a competitive digital world.
+                                        </p>
+
+                                        <a href="#" class="arrow-btn">
+                                            <i class="fa-solid fa-arrow-right-long"></i>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="service-text">
-                                    <h3 class="title">
-                                        <a href="#">Digital Marketing & Analytics</a>
-                                    </h3>
-                                    <p class="text">
-                                        Empowering learners with data-driven marketing skills, analytics insights, and
-                                        digital
-                                        strategies to succeed in a competitive digital world.
-                                    </p>
-                                </div>
-                                <a href="#" class="arrow-icon">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
                             </div>
 
-                            <!-- Digital Marketing & Analytics -->
-                            <div class="service-box-style-5 bb-top bb-bottom wow fadeInUp" data-wow-delay=".5s">
-                                <div class="thumb">
-                                    <img src="assets/img/home-1/service/RED04788.webp" alt="img">
+                            <!-- Card 5 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="program-card h-100">
+                                    <div class="img-box">
+                                        <img src="assets/img/home-1/service/RED04788.webp" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="content p-4">
+                                        <h5>Women Leadership in Tech</h5>
+                                        <p>
+                                            Designed to empower aspiring and emerging women professionals to lead,
+                                            innovate, and excel in the rapidly evolving technology landscape.
+                                        </p>
+
+                                        <a href="#" class="arrow-btn">
+                                            <i class="fa-solid fa-arrow-right-long"></i>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="service-text">
-                                    <h3 class="title">
-                                        <a href="#">Women Leadership in Tech</a>
-                                    </h3>
-                                    <p class="text">
-                                        The Women Leadership in Tech program is designed to empower aspiring and
-                                        emerging women professionals to lead, innovate,
-                                        and excel in the rapidly evolving technology landscape.
-                                    </p>
-                                </div>
-                                <a href="#" class="arrow-icon">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
                             </div>
 
                         </div>
+
                     </div>
                 </section>
 
@@ -1158,101 +1231,6 @@
                     </div>
                 </section>
 
-                <!-- Marquee Section Start -->
-                <div class="marquee-section2">
-                    <div class="marquee style-2 mb-0">
-                        <div class="marquee-group">
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Growth
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Success
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Leadership
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Trust
-                            </div>
-                        </div>
-                        <div class="marquee-group">
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Growth
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Success
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Leadership
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Trust
-                            </div>
-                        </div>
-                        <div class="marquee-group">
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Growth
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Success
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Leadership
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Trust
-                            </div>
-                        </div>
-                        <div class="marquee-group">
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Growth
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Success
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Leadership
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Trust
-                            </div>
-                        </div>
-                        <div class="marquee-group">
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Growth
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Success
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Leadership
-                            </div>
-                            <div class="text">
-                                <img src="assets/img/home-1/star2.png" alt="img">
-                                Trust
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Testimonial Section Start -->
                 <section class="testimonial-section-3 testi-sec-2 fix section-padding">
@@ -1634,9 +1612,9 @@
                             <h6 class="sub-title wow fadeInUp">
                                 <img src="assets/img/home-1/star.png" alt="img"> Our Global Presence
                             </h6>
-                            <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
+                            <!-- <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
                                 Our <br> <span>Office Locations</span>
-                            </h2>
+                            </h2> -->
                         </div>
 
                         <div class="row">
