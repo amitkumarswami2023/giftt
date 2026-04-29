@@ -313,6 +313,80 @@
             background: none !important;
         }
     </style>
+    <style>
+        /* Section Headings */
+        .heading-main {
+            color: #f3ae3c;
+            font-weight: 700;
+            font-size: 40px;
+        }
+
+        .heading-sub {
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        /* Card Styling */
+        .bg-card {
+            position: relative;
+            height: 320px;
+            border-radius: 15px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.4s ease;
+        }
+
+        /* Hover effect */
+        .bg-card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Black Gradient Overlay */
+        .bg-card .overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+            z-index: 1;
+        }
+
+        /* Content */
+        .card-content {
+            position: relative;
+            z-index: 2;
+            padding: 20px;
+            color: #fff;
+            /* off-white */
+        }
+
+        /* Icon */
+        .icon {
+            font-size: 40px;
+            color: #f3ae3c;
+            margin-bottom: 15px;
+        }
+
+        /* Text */
+        .card-content h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* Optional: Make text brighter on hover */
+        .bg-card:hover .overlay {
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+        }
+    </style>
 </head>
 
 <body>
@@ -717,62 +791,83 @@
                     </div>
                 </section>
 
-                <!-- Counter Section Start -->
-                <section class="counter-section-5 fix section-padding section-bg-5">
+                <!-- Service Section Start -->
+                <section class="service-section-custom section-padding">
                     <div class="container">
-                        <div class="section-title style-5 text-center">
-                            <h6 class="sub-title wow fadeInUp">
-                                reason to chose us
-                            </h6>
+                        <div class="text-center mb-5">
+                            <h2 style="color:#f3ae3c; font-weight:700; font-size:40px;">
+                                Ready to build future-ready skills?
+                            </h2>
                             <h2 class="text-anim">
-                                Strategic Services Ideal <br> For Businesses.
+                                Our Programs
                             </h2>
                         </div>
+
                         <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                                <div class="counter-box-style-5">
-                                    <div class="icon">
-                                        <img src="assets/img/home-5/icon/icon4.svg" alt="img">
+
+                            <!-- School Programs -->
+                            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                                <div class="bg-card"
+                                    style="background-image: url('assets/img/home-1/about/school.jpg');">
+                                    <div class="overlay"></div>
+                                    <div class="card-content text-center">
+                                        <i class="bi bi-mortarboard-fill icon"></i>
+                                        <h3>SCHOOL PROGRAMS</h3>
+                                        <p>
+                                            Empowering young learners with essential life skills, emotional
+                                            intelligence, and
+                                            confidence-building through structured programs.
+                                        </p>
                                     </div>
-                                    <h2>
-                                        <span class="count">14</span>+
-                                    </h2>
-                                    <p>Years of work experience</p>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-                                <div class="counter-box-style-5">
-                                    <div class="icon">
-                                        <img src="assets/img/home-5/icon/icon5.svg" alt="img">
+
+                            <!-- University Programs -->
+                            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                                <div class="bg-card"
+                                    style="background-image: url('assets/img/home-1/about/college.png');">
+                                    <div class="overlay"></div>
+                                    <div class="card-content text-center">
+                                        <i class="bi bi-book-half icon"></i>
+                                        <h3>UNIVERSITY PROGRAMS</h3>
+                                        <p>
+                                            Preparing students with leadership, communication, and industry-ready
+                                            skills.
+                                        </p>
                                     </div>
-                                    <h2>
-                                        <span class="count">8</span>M
-                                    </h2>
-                                    <p>More user follow Strato</p>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
-                                <div class="counter-box-style-5">
-                                    <div class="icon">
-                                        <img src="assets/img/home-5/icon/icon6.svg" alt="img">
+
+                            <!-- Corporate Certifications -->
+                            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                                <div class="bg-card"
+                                    style="background-image: url('assets/img/home-1/about/corporate.webp');">
+                                    <div class="overlay"></div>
+                                    <div class="card-content text-center">
+                                        <i class="bi bi-briefcase-fill icon"></i>
+                                        <h3>CORPORATE CERTIFICATIONS</h3>
+                                        <p>
+                                            Enhancing workplace excellence with leadership and professional
+                                            certifications.
+                                        </p>
                                     </div>
-                                    <h2>
-                                        <span class="count">3</span>K
-                                    </h2>
-                                    <p>Successful project done</p>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                                <div class="counter-box-style-5">
-                                    <div class="icon">
-                                        <img src="assets/img/home-5/icon/icon7.svg" alt="img">
+
+                            <!-- GEAN -->
+                            <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                                <div class="bg-card" style="background-image: url('assets/img/home-1/about/gean.jpg');">
+                                    <div class="overlay"></div>
+                                    <div class="card-content text-center">
+                                        <i class="bi bi-globe2 icon"></i>
+                                        <h3>GEAN</h3>
+                                        <p>
+                                            A global network fostering emotional agility and collaboration.
+                                        </p>
                                     </div>
-                                    <h2>
-                                        <span class="count">20</span>+
-                                    </h2>
-                                    <p>International business award</p>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </section>
