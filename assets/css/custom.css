@@ -6,8 +6,7 @@
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url("assets/img/home-1/hero/RED04759-1.webp") center/cover
-    no-repeat;
+  background: url("../img/home-1/hero/RED04759-1.webp") center/cover no-repeat;
   z-index: 0;
 }
 
