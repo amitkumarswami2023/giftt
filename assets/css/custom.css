@@ -1,0 +1,349 @@
+.hero-section {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: url("assets/img/home-1/hero/RED04759-1.webp") center/cover
+    no-repeat;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  z-index: 1;
+}
+
+/* Optional blur effect */
+.backdrop-blur {
+  backdrop-filter: blur(6px);
+}
+
+/* Better mobile spacing */
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+}
+
+.hero-slide {
+  position: relative;
+}
+
+.hero-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* overlay */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.brand-box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  /* adjust as needed */
+  padding: 10px;
+}
+
+.brand-box-1 img {
+  max-width: 100%;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  /* 🔥 key fix */
+}
+.gold-text {
+  color: #f3ae3c;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.section-desc {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.custom-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #f3ae3c;
+  font-weight: bold;
+}
+
+.floating-box {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  background: #fff;
+  padding: 18px 22px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 220px;
+}
+
+.floating-box.right {
+  left: auto;
+  right: -20px;
+}
+
+.floating-box .icon {
+  font-size: 22px;
+  color: #f3ae3c;
+}
+
+.floating-box .count {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.floating-box p {
+  font-size: 12px;
+  margin: 0;
+  color: #6c757d;
+}
+.advisor-card {
+  background: #fff;
+  padding: 40px 25px;
+  border-radius: 16px;
+  transition: 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.advisor-card:hover {
+  background: #f3ae3c;
+  transform: translateY(-8px);
+}
+
+/* Image */
+.advisor-img {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #f3ae3c;
+}
+
+.advisor-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text */
+.advisor-card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+
+.advisor-card p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+/* LinkedIn Button */
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #f3ae3c;
+  color: #fff;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+/* Hover Effects */
+.advisor-card:hover h4,
+.advisor-card:hover p {
+  color: #fff;
+}
+
+.advisor-card:hover .linkedin-btn {
+  background: #fff;
+  color: #f3ae3c;
+}
+
+.program-card {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+  position: relative;
+}
+
+.program-card:hover {
+  border-color: #f3ae3c;
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.program-card .img-box {
+  overflow: hidden;
+}
+
+.program-card img {
+  width: 100%;
+  transition: 0.4s;
+}
+
+.program-card:hover img {
+  transform: scale(1.08);
+}
+
+.program-card h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.program-card:hover h5 {
+  color: #f3ae3c;
+}
+
+.program-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Arrow Button */
+.arrow-btn {
+  width: 45px;
+  height: 45px;
+  background: #f3ae3c;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 15px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.arrow-btn:hover {
+  background: #d99b2f;
+  transform: translateX(5px);
+}
+
+.text-anim span,
+.text-anim span::after {
+  text-decoration: none !important;
+  border: none !important;
+  background: none !important;
+}
+/* Section Headings */
+.heading-main {
+  color: #f3ae3c;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.heading-sub {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* Card Styling */
+.bg-card {
+  position: relative;
+  height: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s ease;
+}
+
+/* Hover effect */
+.bg-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Black Gradient Overlay */
+.bg-card .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+  z-index: 1;
+}
+
+/* Content */
+.card-content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  color: #fff;
+  /* off-white */
+}
+
+/* Icon */
+.icon {
+  font-size: 40px;
+  color: #f3ae3c;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.card-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.card-content p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Optional: Make text brighter on hover */
+.bg-card:hover .overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+}
