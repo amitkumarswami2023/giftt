@@ -10,9 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Gramentheme">
-    <meta name="description" content="About Us - Giftt Consulting">
+    <meta name="description" content="Giftt Community - Giftt Consulting">
     <!-- ======== Page title ============ -->
-    <title>About Us - Giftt Consulting</title>
+    <title>Giftt Community - Giftt Consulting</title>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="assets/img/home-1/icon/favicon1.png">
     <!--<< Bootstrap min.css >>-->
@@ -36,6 +36,8 @@
     <!--<< RTL.css >>-->
     <link rel="stylesheet" href="assets/css/rtl.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style>
         .hero-section1 {
             padding-top: 60px;
@@ -84,6 +86,107 @@
             }
         }
     </style>
+    <style>
+        .icon-img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+
+        /* ORANGE BORDER BOX */
+        .rounded-box {
+            border: 12px solid #ff7a18;
+            border-radius: 25px;
+            overflow: hidden;
+        }
+
+        /* SWIPER IMAGE */
+        .swiper-slide img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        /* MOBILE */
+        @media (max-width: 576px) {
+            .swiper-slide img {
+                height: 220px;
+            }
+
+            h5 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    </style>
+    <style>
+        .ambassador-section {
+            background: #f8f9fa;
+        }
+
+        /* CARD */
+        .ambassador-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            padding: 30px 25px;
+            transition: 0.3s;
+            height: 100%;
+        }
+
+        .ambassador-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        /* IMAGE */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        /* TEXT */
+        .ambassador-card p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* ICON */
+        .social-icon1 {
+            margin-top: 15px;
+            width: 40px;
+            height: 40px;
+            background: #eee;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 576px) {
+            .ambassador-card {
+                padding: 20px;
+            }
+
+            .ambassador-card p {
+                font-size: 13px;
+            }
+
+            .profile-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -241,9 +344,6 @@
                                         <a href="about.html">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Advisory Board</a>
-                                    </li>
-                                    <li>
                                         <a href="#">Schools</a>
                                     </li>
                                     <li>
@@ -363,7 +463,7 @@
 
                         <!-- RIGHT IMAGE -->
                         <div class="col-md-6 text-center">
-                            <img src="assets/img/home-1/community/Globe_-img.webp" alt="GEAN" class="hero-image">
+                            <img src="assets/img/home-1/community/gean.JPG" alt="GEAN" class="hero-image">
                         </div>
 
                     </div>
@@ -422,6 +522,250 @@
                     </div>
                 </div>
             </section>
+
+            <section class="py-3 bg-light">
+                <div class="container">
+                    <div class="section-title style-2 mb-3 text-left">
+                        <!-- <h6 class="sub-title wow fadeInUp text-warning">
+                                                                        Practical Curriculum
+                                                                    </h6> -->
+
+                        <h2 class="text-anim">
+                            What Makes This <span class="text-[#ff7a18]">Community Different?</span>
+                        </h2>
+                    </div>
+                    <div class="row align-items-center my-5">
+
+                        <!-- LEFT SIDE -->
+                        <div class="col-lg-6">
+
+                            <!-- ITEM -->
+                            <div class="d-flex mb-4">
+                                <img src="assets/img/home-1/community/global-research-150x150.webp"
+                                    class="icon-img me-3">
+                                <div>
+                                    <h5>Grounded in Global Research</h5>
+                                    <p>Built on neuroscience of emotions, Emotional Intelligence frameworks, and
+                                        behavioural
+                                        science.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mb-4">
+                                <img src="assets/img/home-1/community/practical-tool-150x150.webp"
+                                    class="icon-img me-3">
+                                <div>
+                                    <h5>Practical Tools, Not Just Theory</h5>
+                                    <p>Simple practices you can apply in daily leadership, classrooms, and
+                                        relationships.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mb-4">
+                                <img src="assets/img/home-1/community/peer-learning-150x150.webp" class="icon-img me-3">
+                                <div>
+                                    <h5>Peer Learning & Reflection</h5>
+                                    <p>Learn with leaders, educators, and professionals through guided reflection
+                                        circles.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mb-4">
+                                <img src="assets/img/home-1/community/safe-space-150x150.webp" class="icon-img me-3">
+                                <div>
+                                    <h5>Closed & Safe Space</h5>
+                                    <p>Honest conversations without judgement or noise.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <img src="assets/img/home-1/community/global-perspective-150x150.webp"
+                                    class="icon-img me-3">
+                                <div>
+                                    <h5>Global Perspectives</h5>
+                                    <p>Learn from diverse experiences across sectors and regions.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- RIGHT SIDE (SWIPER) -->
+                        <div class="col-lg-6 mt-4 mt-lg-0">
+
+                            <div class="swiper mySwiper rounded-box">
+
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/home-1/community/da1f52bb4.webp" class="img-fluid">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/home-1/community/DSC05477.webp" class="img-fluid">
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/home-1/community/IMG_7294.webp" class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/img/home-1/community/IMG_7296.webp" class="img-fluid">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <p class="text-center mt-3">
+                                A community space where learning, reflection, and leadership conversations come to life.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="ambassador-section">
+                <div class="container">
+
+                    <div class="section-title style-2 mb-3 text-center">
+                        <!-- <h6 class="sub-title wow fadeInUp text-warning">
+                            Your Journey to Future readiness begins here
+                        </h6> -->
+                        <h2 class="text-anim">
+                            Meet our Brand Ambassadors
+                        </h2>
+                    </div>
+
+                    <div class="row justify-content-center g-4">
+
+                        <!-- CARD 1 -->
+                        <div class="col-md-6 col-lg-5">
+                            <div class="ambassador-card text-center">
+
+                                <img src="assets/img/home-1/advisory/Prof. (Dr.) Abha Singh.jpg"
+                                    class="profile-img mb-3" alt="Abha Singh">
+
+                                <h5 class="fw-semibold">Prof. (Dr.) Abha Singh</h5>
+
+                                <p>
+                                    Prof. (Dr.) Abha Singh is a distinguished Senior Behavioural Psychologist,
+                                    educator, and Professor of Practice in Psychology & Behavioural Sciences with
+                                    nearly three decades of academic and applied expertise.
+
+                                    A gold medallist for her doctoral research, she has authored 65+ national and
+                                    international publications and multiple books across fields including
+                                    Organisational, Positive, Cyber, and Spiritual Psychology.
+
+                                    She has mentored numerous doctoral scholars and contributed significantly to
+                                    behavioural research and education. Her work has been globally recognised with
+                                    honours such as the Ambassador for Peace Award (Seoul), Peace Maker Award,
+                                    Teacher’s Day Honour by the Ministry of AYUSH, and the Women Achiever Award.
+                                </p>
+
+                                <a href="https://www.linkedin.com/in/prof-dr-abha-singh-18a97421/">
+                                    <div class="social-icon1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!-- CARD 2 -->
+                        <div class="col-md-6 col-lg-5">
+                            <div class="ambassador-card text-center">
+
+                                <img src="assets/img/home-1/advisory/Dr. Smita Singh.jpg" class="profile-img mb-3"
+                                    alt="Smita Singh">
+
+                                <h5 class="fw-semibold">Dr. Smita Singh (Dabholkar)</h5>
+
+                                <p>
+                                    Dr. Smita Singh (Dabholkar) is an Associate Professor of Organizational Behaviour
+                                    at the Institute of Management Technology (IMT), Nagpur, with over two decades
+                                    of experience in academic and consulting.
+
+                                    She holds a Ph.D. in Psychology from Nagpur University and specializes in
+                                    organisational development, behavioural science, and HR management.
+
+                                    An author and speaker, she actively shares insights on leadership, career
+                                    readiness, and personal growth. She has also co-authored a book on Accelerated
+                                    Action Learning with internationally recognised scholar Professor William J.
+                                    Rothwell.
+                                </p>
+
+                                <a href="https://www.linkedin.com/in/dr-smita-singh-dabholkar/">
+                                    <div class="social-icon1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Community Section Start -->
+            <section class="community-section my-5">
+                <div class="container-fluid px-0">
+
+                    <div class="section-title style-2 mb-3 text-center">
+                        <!-- <h6 class="sub-title wow fadeInUp text-warning">
+                                                Your Journey to Future readiness begins here
+                                            </h6> -->
+                        <h2 class="text-anim">
+                            Moments from Our Learning Community
+                        </h2>
+                    </div>
+
+                    <!-- Swiper -->
+                    <div class="swiper communitySwiper">
+                        <div class="swiper-wrapper">
+
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/home-1/community/comm1.webp" alt="">
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/home-1/community/comm2.webp" alt="">
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/home-1/community/comm3.webp" alt="">
+                            </div>
+
+                            <!-- Slide 4 -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/home-1/community/comm4.webp" alt="">
+                            </div>
+
+                            <!-- Slide 5 -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/home-1/community/comm5.webp" alt="">
+                            </div>
+
+                            <!-- Slide 6 -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/home-1/community/comm6.webp" alt="">
+                            </div>
+                            <!-- Slide 7 -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/home-1/community/comm7.webp" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Community Section End -->
+
 
             <!-- Footer Section Start -->
             <footer class="footer-section pb-0">
@@ -640,8 +984,45 @@
     <script src="assets/js/custom.js"></script>
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- Mirrored from ex-coders.com/html/brevon/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Apr 2026 04:04:44 GMT -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".communitySwiper", {
+            loop: true,
+            speed: 4000,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+            grabCursor: true,
+
+            breakpoints: {
+                576: {
+                    slidesPerView: 2,
+                },
+                768: {
+                    slidesPerView: 2.5,
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 3.5,
+                }
+            }
+        });
+    </script>
+</body>
 
 </html>

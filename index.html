@@ -217,9 +217,7 @@
                                         <li>
                                             <a href="about.html">About Us</a>
                                         </li>
-                                        <li>
-                                            <a href="#">Advisory Board</a>
-                                        </li>
+
                                         <li>
                                             <a href="#">Schools</a>
                                         </li>
@@ -1653,8 +1651,66 @@
                     </div>
                 </section>
 
+                <!-- Community Section Start -->
+                <section class="community-section my-0">
+                    <div class="container-fluid px-0">
+
+                        <div class="section-title style-2 mb-3 text-center">
+                            <!-- <h6 class="sub-title wow fadeInUp text-warning">
+                                                                Your Journey to Future readiness begins here
+                                                            </h6> -->
+                            <h2 class="text-anim">
+                                Moments from Our Learning Community
+                            </h2>
+                        </div>
+
+                        <!-- Swiper -->
+                        <div class="swiper communitySwiper">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide 1 -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/home-1/community/comm1.webp" alt="">
+                                </div>
+
+                                <!-- Slide 2 -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/home-1/community/comm2.webp" alt="">
+                                </div>
+
+                                <!-- Slide 3 -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/home-1/community/comm3.webp" alt="">
+                                </div>
+
+                                <!-- Slide 4 -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/home-1/community/comm4.webp" alt="">
+                                </div>
+
+                                <!-- Slide 5 -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/home-1/community/comm5.webp" alt="">
+                                </div>
+
+                                <!-- Slide 6 -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/home-1/community/comm6.webp" alt="">
+                                </div>
+                                <!-- Slide 7 -->
+                                <div class="swiper-slide">
+                                    <img src="assets/img/home-1/community/comm7.webp" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- Community Section End -->
+
                 <!-- Cta Banner Section Start -->
-                <section class="cta-banner-4 bg-cover section-padding"
+                <!-- <section class="cta-banner-4 bg-cover section-padding"
                     style="background-image: url('assets/img/home-4/cta-banner.jpg');">
                     <div class="container">
                         <div class="cta-content">
@@ -1671,7 +1727,7 @@
                             </a>
                         </div>
                     </div>
-                </section>
+                </section> -->
 
                 <!-- Footer Section Start -->
                 <footer class="footer-section pb-0">
@@ -1713,18 +1769,13 @@
                                             </div>
                                             <ul class="gt-list-area">
                                                 <li>
-                                                    <a href="about.html">
+                                                    <a href="index.html">
                                                         Home
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="about.html">
                                                         About Us
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        Advisory Board
                                                     </a>
                                                 </li>
                                                 <li>
@@ -1743,7 +1794,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="giftt-community.html">
                                                         Community
                                                     </a>
                                                 </li>
@@ -1753,7 +1804,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="contact.html">
                                                         Contact Us
                                                     </a>
                                                 </li>
@@ -1946,6 +1997,34 @@
 
         counters.forEach(counter => {
             observer.observe(counter);
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".communitySwiper", {
+            loop: true,
+            speed: 4000,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+            grabCursor: true,
+
+            breakpoints: {
+                576: {
+                    slidesPerView: 2,
+                },
+                768: {
+                    slidesPerView: 2.5,
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 3.5,
+                }
+            }
         });
     </script>
 </body>
