@@ -391,3 +391,322 @@
     height: 250px;
   }
 }
+/* SCHOOL PROGRAMS CSS */
+.journey-section {
+  padding: 70px 0;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.05;
+  color: #1f2d5a;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.title-line {
+  width: 110px;
+  height: 6px;
+  background: linear-gradient(to right, #233f8f 30%, #f4a94b 30%);
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.journey-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.journey-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 26px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.icon-orange {
+  background: #e8a255;
+}
+
+.icon-blue {
+  background: #2d4eb2;
+}
+
+.icon-pink {
+  background: #ef5f7d;
+}
+
+.journey-step h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  color: #24325e;
+}
+
+.center-line {
+  width: 5px;
+  height: 260px;
+  margin: auto;
+  border-radius: 10px;
+  background: linear-gradient(
+    to bottom,
+    #e8a255 0%,
+    #e8a255 33%,
+    #2d4eb2 33%,
+    #2d4eb2 66%,
+    #ef5f7d 66%,
+    #ef5f7d 100%
+  );
+}
+
+.right-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.right-box {
+  text-align: center;
+  color: #4a4a4a;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.right-box:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 180px;
+  height: 2px;
+  background: #e4c27d;
+}
+
+.learning-section {
+  padding-top: 80px;
+}
+
+.learning-title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #24325e;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.learning-card {
+  padding: 20px 15px;
+  border-right: 1px solid #e3e3e3;
+  height: 100%;
+}
+
+.learning-card:last-child {
+  border-right: none;
+}
+
+.learning-card h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #24325e;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.learning-card p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .section-title {
+    font-size: 42px;
+  }
+
+  .journey-step h4 {
+    font-size: 24px;
+  }
+
+  .center-line {
+    height: 180px;
+    margin: 40px auto;
+  }
+
+  .right-content {
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .right-box {
+    font-size: 18px;
+  }
+
+  .learning-title {
+    font-size: 34px;
+  }
+
+  .learning-card {
+    border-right: none;
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  .learning-card:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 34px;
+  }
+
+  .journey-step {
+    align-items: flex-start;
+  }
+
+  .journey-step h4 {
+    font-size: 20px;
+  }
+
+  .learning-title {
+    font-size: 28px;
+  }
+
+  .learning-card h3 {
+    font-size: 24px;
+  }
+
+  .learning-card p {
+    font-size: 16px;
+  }
+}
+.future-section {
+  background: #fff;
+  position: relative;
+}
+
+/* LEFT DESIGN */
+.bg-shape {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(135deg, #ff9f1c, #ff7a18);
+  border-radius: 0 100px 100px 0;
+  z-index: 0;
+}
+
+.main-img {
+  position: relative;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+/* CIRCLE IMAGE */
+.circle-img {
+  position: absolute;
+  bottom: -40px;
+  left: 30px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  overflow: hidden;
+  z-index: 3;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.circle-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TEXT */
+.small-text {
+  color: #555;
+  font-size: 15px;
+}
+
+.highlight-text span {
+  color: #ff7a18;
+  font-weight: 700;
+}
+
+/* BOXES */
+.info-box {
+  padding: 20px;
+  border-radius: 15px;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.human-box {
+  border: 2px solid #ff4d6d;
+}
+
+.ai-box {
+  border: 2px solid #f4a261;
+}
+
+/* LABEL */
+.label {
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: #ff4d6d;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+.label.yellow {
+  background: #f4a261;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .bg-shape {
+    display: none;
+  }
+
+  .circle-img {
+    position: static;
+    margin: 20px auto;
+  }
+
+  .main-img {
+    margin-top: 20px;
+  }
+
+  .highlight-text {
+    font-size: 18px;
+  }
+
+  .future-section h2 {
+    font-size: 28px;
+  }
+}
+
+.shadow-sm:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}

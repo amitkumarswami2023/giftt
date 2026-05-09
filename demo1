@@ -750,3 +750,42 @@
                     </div>
                 </section>
                 <!-- Faq Section End -->
+
+                <style>
+        /* Accordion Active & Hover Color */
+        .custom-program-accordion .accordion-button:not(.collapsed) {
+            background-color: #f3ae3c !important;
+            color: #000 !important;
+            box-shadow: none;
+        }
+
+        .custom-program-accordion .accordion-button:hover {
+            background-color: #f3ae3c !important;
+            color: #000 !important;
+        }
+
+        .custom-program-accordion .accordion-button:focus {
+            box-shadow: none;
+            border-color: transparent;
+        }
+
+        /* Number Badge */
+        .custom-program-accordion .accordion-button:not(.collapsed) .badge,
+        .custom-program-accordion .accordion-button:hover .badge {
+            background-color: #000 !important;
+            color: #fff !important;
+        }
+
+        /* Cards Hover Effect */
+        .custom-program-accordion .bg-light:hover,
+        .custom-program-accordion .border:hover {
+            border-color: #f3ae3c !important;
+            transition: 0.3s ease;
+        }
+
+        /* Alert Box */
+        .custom-program-accordion .alert-dark {
+            background-color: #f3ae3c !important;
+            color: #000 !important;
+        }
+    </style>
