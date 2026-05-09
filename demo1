@@ -1,0 +1,752 @@
+ <!-- Programs Section Start -->
+                <section class="py-5 bg-light">
+                    <div class="container">
+
+                        <div class="section-title style-2 text-center">
+                            <h6 class="sub-title wow fadeInUp">
+                                Our Signature Programs
+                            </h6>
+                            <h2 class="text-anim">
+                                Empowering Future Innovators Through <br> Specialized Learning Programs
+
+                            </h2>
+                        </div>
+
+                        <!-- Programs Row -->
+                        <div class="row g-4">
+
+                            <!-- EI Edge -->
+                            <div class="col-lg-6">
+                                <div class="card border-0 shadow-sm h-100 rounded-4">
+                                    <div class="card-body p-4">
+
+                                        <div class="mb-3">
+                                            <span class="badge bg-primary px-3 py-2 rounded-pill">
+                                                Innovation Program
+                                            </span>
+                                        </div>
+
+                                        <h3 class="fw-bold mb-3 text-dark">The EI Edge</h3>
+
+                                        <p class="text-muted mb-4">
+                                            The EI Edge: Master Your Emotions. Lead Your Life” is an experiential
+                                            Emotional Intelligence (EI) program designed for
+                                            students from Grades 4–12. It develops critical skills—self-awareness,
+                                            emotion management, empathy, social skills, and
+                                            responsible decision‑making—through age-appropriate, interactive modules.
+                                            The goal: help students thrive academically
+                                            and personally by transforming emotional literacy into lifelong capability.
+                                        </p>
+
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-3">
+                                                <i class="bi bi-clock-fill text-primary fs-4"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="fw-bold mb-1">Duration</h6>
+                                                <p class="text-muted mb-0">8 sessions (over four weeks).</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Talent Discovery Program -->
+                            <div class="col-lg-6">
+                                <div class="card border-0 shadow-sm h-100 rounded-4">
+                                    <div class="card-body p-4">
+
+                                        <div class="mb-3">
+                                            <span class="badge bg-success px-3 py-2 rounded-pill">
+                                                Skill Development Program
+                                            </span>
+                                        </div>
+
+                                        <h3 class="fw-bold mb-3 text-dark">Talent Discovery Program (TDP)</h3>
+
+                                        <p class="text-muted mb-4">
+                                            The Talent Discovery Program (TDP) is your gateway to discovering your
+                                            unique talents, enhancing your professional
+                                            skills, and preparing yourself for success in the corporate world. This
+                                            program is scientifically designed, using an
+                                            assessment methodology that has been taken by over 20 million people
+                                            globally, and over 20 thousand in India.
+                                        </p>
+
+                                        <div class="d-flex align-items-center">
+                                            <div class="me-3">
+                                                <i class="bi bi-clock-fill text-success fs-4"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="fw-bold mb-1">Duration</h6>
+                                                <p class="text-muted mb-0">2 Weeks (Weekend Sessions) of intense
+                                                    learning, practical insights, and career-focused counselling.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- Programs Section End -->
+
+                <!-- Service Section Start -->
+                <section class="service-section-4 fix section-padding pt-3 text-center">
+                    <div class="container ">
+                        <div class="section-title style-2 text-center">
+                            <h6 class="sub-title wow fadeInUp">
+                                Discover The Benefits Of Our Career & Personal Development Programs
+                            </h6>
+                            <h2 class="text-anim">
+                                Program Benefits
+
+                            </h2>
+                        </div>
+
+                        <div class="service-box-style-4">
+
+                            <!-- EI EDGE -->
+                            <div class="service-list-wrap accordion block active-block wow fadeInUp"
+                                data-wow-delay=".2s">
+
+                                <div class="service-acc-btn active">
+                                    <span class="number">1.</span>
+                                    <h3>
+                                        EI EDGE
+                                    </h3>
+                                    <div class="icon fa-solid fa-plus"></div>
+                                </div>
+
+                                <div class="service-acc-content current">
+                                    <div class="service-wrap">
+
+                                        <div class="item-text">
+                                            <h4>Program Benefits:</h4>
+
+                                            <div class="text">
+                                                <p>
+                                                    EI EDGE focuses on emotional intelligence, leadership development,
+                                                    communication enhancement, and personal growth to prepare
+                                                    individuals
+                                                    for academic, professional, and life success.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item-text">
+                                            <h4>Includes:</h4>
+
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Builds self-awareness, empathy, and emotional regulation
+                                                </li>
+
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Enhances communication & relationships
+                                                </li>
+
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Supports reduced stress and healthier decision-making
+                                                </li>
+
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Boosts academic performance and long-term well-being
+                                                </li>
+
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Empowers leadership, resilience, and confidence
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Talent Discovery Program -->
+                            <div class="service-list-wrap accordion block wow fadeInUp" data-wow-delay=".4s">
+
+                                <div class="service-acc-btn">
+                                    <span class="number">2.</span>
+                                    <h3>
+                                        Talent Discovery Program (TDP)
+                                    </h3>
+                                    <div class="icon fa-solid fa-plus"></div>
+                                </div>
+
+                                <div class="service-acc-content">
+                                    <div class="service-wrap">
+
+                                        <div class="item-text">
+                                            <h4>Program Benefits:</h4>
+
+                                            <div class="text">
+                                                <p>
+                                                    The Talent Discovery Program helps individuals identify strengths,
+                                                    improve employability skills, and build confidence for career and
+                                                    professional success.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item-text">
+                                            <h4>Includes:</h4>
+
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Professional Growth – Unlock your personal and career development
+                                                    roadmap
+                                                </li>
+
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Build Confidence – Discover your true potential and enhance your
+                                                    self-awareness
+                                                </li>
+
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Boost Employability – Gain the skills and insights to make you more
+                                                    attractive to
+                                                    employers
+                                                </li>
+
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Unleash Your Potential – With personalized guidance, unleash your
+                                                    full professional
+                                                    capabilities
+                                                </li>
+
+                                                <li>
+                                                    <i class="fa-solid fa-circle-check"></i>
+                                                    Career-Ready Certification – Receive a certificate proving your
+                                                    readiness for the
+                                                    corporate world
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- Service Section End -->
+
+                <!-- Program Overview Section Start -->
+                <section class="py-5 bg-light">
+                    <div class="container">
+                        <div class="section-title style-2 text-center">
+                            <h6 class="sub-title wow fadeInUp">
+                                Your Journey Towards Career Discovery & Industry Readiness
+                            </h6>
+                            <h2 class="text-anim">
+                                Program Overview of TDP
+
+                            </h2>
+                        </div>
+
+                        <!-- Accordion Start -->
+                        <div class="accordion custom-program-accordion" id="programAccordion">
+
+                            <!-- Item 1 -->
+                            <div class="accordion-item border-0 shadow-sm rounded-4 mb-4 overflow-hidden">
+
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button fw-bold fs-4 py-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+
+                                        <span class="me-4 badge bg-dark rounded-circle p-3">
+                                            1
+                                        </span>
+
+                                        Global AI Based Online Assessment
+                                    </button>
+                                </h2>
+
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#programAccordion">
+
+                                    <div class="accordion-body p-4 p-lg-5">
+
+                                        <p class="text-muted mb-4">
+                                            Start your journey by completing an online questionnaire that generates
+                                            an AI-driven personalized analytical report.
+                                        </p>
+
+                                        <div class="row g-4">
+
+                                            <!-- Key Insights -->
+                                            <div class="col-lg-6">
+                                                <div class="border rounded-4 p-4 h-100 bg-white">
+                                                    <h5 class="fw-bold text-black mb-3">
+                                                        Key Insights
+                                                    </h5>
+
+                                                    <ul class="list-unstyled mb-0">
+                                                        <li class="mb-3">✔ Discover your core strengths and unique
+                                                            capabilities.</li>
+                                                        <li class="mb-3">✔ Identify growth areas for personal and
+                                                            professional
+                                                            development.</li>
+                                                        <li class="mb-3">✔ Actionable next steps for future growth.</li>
+                                                        <li class="mb-3">✔ Real-world case studies deepen understanding
+                                                            of talents.</li>
+                                                        <li>✔ Insightful report for tailored coaching and personal
+                                                            development.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- Why It Matters -->
+                                            <div class="col-lg-6">
+                                                <div class="border rounded-4 p-4 h-100 bg-white">
+                                                    <h5 class="fw-bold text-black mb-3">
+                                                        Why It Matters
+                                                    </h5>
+
+                                                    <ul class="list-unstyled mb-0">
+                                                        <li class="mb-3">✔ Globally validated methodology trusted by
+                                                            millions.</li>
+                                                        <li class="mb-3">✔ Ideal for students, professionals, and future
+                                                            leaders.</li>
+                                                        <li class="mb-3">✔ Helps prepare individuals for career success.
+                                                        </li>
+                                                        <li>✔ Builds a strong foundation for informed career decisions.
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Coaching Section -->
+                                        <div class="mt-5">
+
+                                            <h4 class="fw-bold mb-4">
+                                                Expert Coaching & Counselling
+                                            </h4>
+
+                                            <div class="row g-4">
+
+                                                <div class="col-md-6">
+                                                    <div class="bg-light rounded-4 p-4 h-100">
+                                                        <h6 class="fw-bold mb-2">
+                                                            Tailored Career Path Guidance
+                                                        </h6>
+
+                                                        <p class="text-muted mb-0">
+                                                            Align your strengths, passions, and goals to identify your
+                                                            ideal career.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="bg-light rounded-4 p-4 h-100">
+                                                        <h6 class="fw-bold mb-2">
+                                                            Actionable Insights
+                                                        </h6>
+
+                                                        <p class="text-muted mb-0">
+                                                            Receive practical advice for career growth based on
+                                                            assessment results.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="bg-light rounded-4 p-4 h-100">
+                                                        <h6 class="fw-bold mb-2">
+                                                            Strength Deep-Dive
+                                                        </h6>
+
+                                                        <p class="text-muted mb-0">
+                                                            Understand your assessment results and unlock your full
+                                                            potential.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="bg-light rounded-4 p-4 h-100">
+                                                        <h6 class="fw-bold mb-2">
+                                                            Interactive Feedback
+                                                        </h6>
+
+                                                        <p class="text-muted mb-0">
+                                                            Engage in discussions, challenges, and real-world
+                                                            decision-making
+                                                            activities.
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="alert alert-primary border-0 rounded-4 mt-4 mb-0">
+                                                <strong>Outcome:</strong>
+                                                A clear roadmap for your career and self-development, empowering you
+                                                to make informed decisions and set achievable goals.
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div class="accordion-item border-0 shadow-sm rounded-4 mb-4 overflow-hidden">
+
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed fw-bold fs-4 py-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+
+                                        <span class="me-3 badge bg-dark rounded-circle p-3">
+                                            2
+                                        </span>
+
+                                        Career Counselling Process
+                                    </button>
+                                </h2>
+
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#programAccordion">
+
+                                    <div class="accordion-body p-4 p-lg-5">
+
+                                        <p class="text-muted mb-4">
+                                            Post-assessment, you will receive counselling from expert master coaches
+                                            who will guide you through personalized career and self-development
+                                            planning.
+                                        </p>
+
+                                        <div class="row g-4">
+
+                                            <div class="col-md-6">
+                                                <div class="bg-light rounded-4 p-4 h-100">
+                                                    <h6 class="fw-bold mb-2">
+                                                        Tailored Career Path Guidance
+                                                    </h6>
+
+                                                    <p class="text-muted mb-0">
+                                                        Align your strengths, passions, and goals to identify your ideal
+                                                        career.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="bg-light rounded-4 p-4 h-100">
+                                                    <h6 class="fw-bold mb-2">
+                                                        Actionable Insights
+                                                    </h6>
+
+                                                    <p class="text-muted mb-0">
+                                                        Based on your talent assessment, receive actionable advice for
+                                                        career growth.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="bg-light rounded-4 p-4 h-100">
+                                                    <h6 class="fw-bold mb-2">
+                                                        Strength Deep-Dive
+                                                    </h6>
+
+                                                    <p class="text-muted mb-0">
+                                                        Coaches help you interpret your assessment results and unlock
+                                                        your full potential.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="bg-light rounded-4 p-4 h-100">
+                                                    <h6 class="fw-bold mb-2">
+                                                        Interactive Feedback
+                                                    </h6>
+
+                                                    <p class="text-muted mb-0">
+                                                        Engage in discussions, challenges, and decision-making based on
+                                                        real-world case studies.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="alert alert-dark border-0 rounded-4 mt-4 mb-0">
+                                            <strong>Outcome:</strong>
+                                            A clear roadmap for your career and self-development, empowering you
+                                            to make informed decisions and set achievable goals.
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Item 3 -->
+                            <div class="accordion-item border-0 shadow-sm rounded-4 overflow-hidden">
+
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed fw-bold fs-4 py-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree">
+
+                                        <span class="me-3 badge bg-dark rounded-circle p-3">
+                                            3
+                                        </span>
+
+                                        Industry Leader Exposure – CXO Session
+                                    </button>
+                                </h2>
+
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#programAccordion">
+
+                                    <div class="accordion-body p-4 p-lg-5">
+
+                                        <p class="text-muted mb-4">
+                                            Engage with industry leaders and gain practical insights into leadership,
+                                            business management, and real-world corporate expectations.
+                                        </p>
+
+                                        <div class="row g-4">
+
+                                            <div class="col-md-4">
+                                                <div class="border rounded-4 p-4 h-100">
+                                                    <h5 class="fw-bold text-black mb-3">
+                                                        Sessions with Industry Experts
+                                                    </h5>
+
+                                                    <p class="text-muted mb-0">
+                                                        Learn leadership, business management, and problem-solving
+                                                        strategies.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="border rounded-4 p-4 h-100">
+                                                    <h5 class="fw-bold text-black mb-3">
+                                                        Talent Expectations
+                                                    </h5>
+
+                                                    <p class="text-muted mb-0">
+                                                        Understand the essential skills and qualities employers are
+                                                        seeking.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <div class="border rounded-4 p-4 h-100">
+                                                    <h5 class="fw-bold text-black mb-3">
+                                                        Real-World Case Applications
+                                                    </h5>
+
+                                                    <p class="text-muted mb-0">
+                                                        Build confidence in solving business challenges and enhance
+                                                        career readiness.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Why Important -->
+                                        <div class="bg-light rounded-4 p-4 mt-4">
+
+                                            <h5 class="fw-bold mb-3">
+                                                Why It’s Important
+                                            </h5>
+
+                                            <ul class="mb-0">
+                                                <li class="mb-2">
+                                                    Bridge the gap between theoretical learning and practical
+                                                    experience.
+                                                </li>
+
+                                                <li class="mb-2">
+                                                    Understand market trends and employer expectations.
+                                                </li>
+
+                                                <li>
+                                                    Gain inspiration from real career success stories.
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Accordion End -->
+
+                    </div>
+                </section>
+                <!-- Program Overview Section End -->
+
+                <!-- Faq Section Start -->
+                <section class="faq-section-3 faq-about fix section-padding">
+                    <div class="container">
+                        <div class="row g-4">
+
+                            <div class="section-title text-center">
+                                <h6 class="sub-title wow fadeInUp">
+                                    Frequently Asked Questions
+                                </h6>
+
+                                <h2 class="text-anim">
+                                    Talent Discovery Program (TDP) FAQs
+                                </h2>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="faq-items-2 style-faq-2">
+
+                                    <ul class="accordion-box">
+
+                                        <!-- Block -->
+                                        <li class="accordion block active-block wow fadeInUp">
+
+                                            <div class="acc-btn active">
+                                                What is the Talent Discovery Program (TDP)?
+                                                <div class="icon fa-solid fa-plus"></div>
+                                            </div>
+
+                                            <div class="acc-content current">
+                                                <div class="content">
+                                                    <div class="text max-weight-inst" style="color: #000;">
+                                                        TDP is an intensive 4-week program that helps students discover
+                                                        their unique talents, assess their strengths, and gain
+                                                        personalized career guidance through one-on-one coaching and
+                                                        industry exposure.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Block -->
+                                        <li class="accordion block wow fadeInUp" data-wow-delay=".2s">
+
+                                            <div class="acc-btn">
+                                                How is the talent assessment conducted?
+                                                <div class="icon fa-solid fa-plus"></div>
+                                            </div>
+
+                                            <div class="acc-content">
+                                                <div class="content">
+                                                    <div class="text max-weight-inst" style="color: #000;">
+                                                        You’ll complete an online questionnaire, and an AI-driven tool
+                                                        will generate a detailed, personalized analytical report.
+                                                        The insights will guide your career decisions and personal
+                                                        growth.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Block -->
+                                        <li class="accordion block wow fadeInUp" data-wow-delay=".4s">
+
+                                            <div class="acc-btn">
+                                                What do I get after completing the program?
+                                                <div class="icon fa-solid fa-plus"></div>
+                                            </div>
+
+                                            <div class="acc-content">
+                                                <div class="content">
+                                                    <div class="text max-weight-inst" style="color: #000;">
+                                                        You’ll complete an online questionnaire, and an AI-driven tool
+                                                        will generate a detailed, personalized analytical report.
+                                                        The insights will guide your career decisions and personal
+                                                        growth.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Block -->
+                                        <li class="accordion block wow fadeInUp" data-wow-delay=".6s">
+
+                                            <div class="acc-btn">
+                                                How can industry exposure help me?
+                                                <div class="icon fa-solid fa-plus"></div>
+                                            </div>
+
+                                            <div class="acc-content">
+                                                <div class="content">
+                                                    <div class="text max-weight-inst" style="color: #000;">
+                                                        It gives you the opportunity to learn directly from industry
+                                                        leaders, understand talent expectations, and see how
+                                                        real-world challenges are solved.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Block -->
+                                        <li class="accordion block wow fadeInUp" data-wow-delay=".8s">
+
+                                            <div class="acc-btn">
+                                                Is there any payment option available?
+                                                <div class="icon fa-solid fa-plus"></div>
+                                            </div>
+
+                                            <div class="acc-content">
+                                                <div class="content">
+                                                    <div class="text max-weight-inst" style="color: #000;">
+                                                        Yes, we offer both full payment and installment plans. Please
+                                                        contact us for more details.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- Block -->
+                                        <li class="accordion block mb-0 wow fadeInUp" data-wow-delay="1s">
+
+                                            <div class="acc-btn">
+                                                Who can benefit from this program?
+                                                <div class="icon fa-solid fa-plus"></div>
+                                            </div>
+
+                                            <div class="acc-content">
+                                                <div class="content">
+                                                    <div class="text max-weight-inst" style="color: #000;">
+                                                        This program is ideal for students, professionals, and anyone
+                                                        looking to elevate their career by discovering their
+                                                        strengths and unlocking their full potential.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- Faq Section End -->
