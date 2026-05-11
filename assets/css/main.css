@@ -13892,3 +13892,25 @@ span {
     transform: rotate(359deg);
   }
 } /*# sourceMappingURL=main.css.map */
+.whatsapp-float {
+  position: fixed !important;
+  bottom: 20px !important;
+  left: 20px !important;
+
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 28px;
+  text-decoration: none;
+
+  z-index: 99999 !important;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
