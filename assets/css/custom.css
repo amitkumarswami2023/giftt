@@ -393,7 +393,7 @@
 }
 /* SCHOOL PROGRAMS CSS */
 .journey-section {
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 .section-title {
@@ -1748,7 +1748,7 @@
   }
 
   .aim26-banner-inner {
-    padding: 80px 0;
+    padding: 50px 0;
   }
 
   .aim26-main-title {
@@ -1803,6 +1803,7 @@
     font-size: 16px;
   }
 }
+
 .aim-about-event-section {
   background: #f2f2f2;
   overflow: hidden;
@@ -1811,16 +1812,16 @@
 /* LEFT SIDE */
 
 .aim-about-left {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px;
+  padding: 60px;
 }
 
 .aim-about-left h2 {
-  font-size: 120px;
-  line-height: 1.05;
+  font-size: 72px;
+  line-height: 1.1;
   font-weight: 800;
   color: #4b3a2f;
   margin-bottom: 0;
@@ -1830,27 +1831,27 @@
 /* RIGHT SIDE */
 
 .aim-about-right {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 90px;
+  padding: 70px 60px;
 }
 
 .aim-about-right h3 {
-  font-size: 56px;
-  line-height: 1.3;
+  font-size: 38px;
+  line-height: 1.35;
   font-weight: 700;
   color: #4b3a2f;
-  margin-bottom: 45px;
+  margin-bottom: 28px;
   max-width: 700px;
 }
 
 .aim-about-right p {
-  font-size: 20px;
-  line-height: 1.9;
+  font-size: 18px;
+  line-height: 1.8;
   color: #4b3a2f;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   max-width: 760px;
 }
 
@@ -1862,80 +1863,86 @@
 
 @media (max-width: 1399px) {
   .aim-about-left h2 {
-    font-size: 95px;
+    font-size: 62px;
   }
 
   .aim-about-right h3 {
-    font-size: 46px;
+    font-size: 34px;
   }
 }
 
 @media (max-width: 1199px) {
-  .aim-about-left {
+  .aim-about-left,
+  .aim-about-right {
     min-height: auto;
-    padding: 80px 40px 40px;
+  }
+
+  .aim-about-left {
+    padding: 50px 30px 20px;
   }
 
   .aim-about-right {
-    min-height: auto;
-    padding: 40px 40px 80px;
+    padding: 20px 30px 50px;
   }
 
   .aim-about-left h2 {
-    font-size: 80px;
+    font-size: 54px;
   }
 
   .aim-about-right h3 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .aim-about-left {
-    padding: 60px 20px 30px;
+    padding: 40px 20px 15px;
   }
 
   .aim-about-right {
-    padding: 30px 20px 60px;
+    padding: 15px 20px 40px;
   }
 
   .aim-about-left h2 {
-    font-size: 52px;
+    font-size: 40px;
   }
 
   .aim-about-right h3 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 24px;
+    margin-bottom: 18px;
   }
 
   .aim-about-right p {
-    font-size: 16px;
-    line-height: 1.8;
-    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 18px;
   }
 }
+
+/* ========================================================= */
+
 .aim-why-event-section {
   background: #f3f1ef;
-  padding: 30px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
 /* TOP */
 
 .aim-why-top {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .aim-why-subtitle {
   display: block;
   color: #ff7f1f;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .aim-why-title {
-  font-size: 72px;
+  font-size: 52px;
   line-height: 1.2;
   font-weight: 800;
   color: #3e2f25;
@@ -1945,12 +1952,12 @@
 /* CARD */
 
 .aim-why-card {
-  padding: 10px 25px;
+  padding: 10px 20px;
 }
 
 .aim-why-line-box {
   position: relative;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1959,38 +1966,38 @@
 .aim-why-line-box::before {
   content: "";
   position: absolute;
-  width: 240px;
+  width: 180px;
   height: 2px;
   background: #ddd6d0;
 }
 
 .aim-why-number {
-  width: 46px;
-  height: 46px;
+  width: 42px;
+  height: 42px;
   background: #ff7f1f;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   position: relative;
   z-index: 2;
 }
 
 .aim-why-card h3 {
-  font-size: 48px;
+  font-size: 32px;
   line-height: 1.3;
   font-weight: 700;
   color: #3e2f25;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 
 .aim-why-card p {
-  font-size: 22px;
-  line-height: 1.8;
+  font-size: 18px;
+  line-height: 1.75;
   color: #4d4037;
-  max-width: 760px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -1998,43 +2005,43 @@
 
 @media (max-width: 1399px) {
   .aim-why-title {
-    font-size: 60px;
+    font-size: 46px;
   }
 
   .aim-why-card h3 {
-    font-size: 40px;
+    font-size: 28px;
   }
 }
 
 @media (max-width: 1199px) {
   .aim-why-title {
-    font-size: 52px;
+    font-size: 40px;
   }
 
   .aim-why-card h3 {
-    font-size: 34px;
+    font-size: 26px;
   }
 
   .aim-why-card p {
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 
 @media (max-width: 767px) {
   .aim-why-event-section {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .aim-why-top {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
 
   .aim-why-subtitle {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .aim-why-title {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   .aim-why-card {
@@ -2042,33 +2049,36 @@
   }
 
   .aim-why-line-box::before {
-    width: 180px;
+    width: 140px;
   }
 
   .aim-why-card h3 {
-    font-size: 28px;
-    margin-bottom: 18px;
+    font-size: 22px;
+    margin-bottom: 14px;
   }
 
   .aim-why-card p {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.7;
   }
 }
+
+/* ========================================================= */
+
 .aim-event-highlights-section {
   background: #f3f1ef;
-  padding: 90px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
 /* TITLE */
 
 .aim-event-highlights-title {
-  font-size: 72px;
+  font-size: 52px;
   line-height: 1.2;
   font-weight: 800;
   color: #3f3026;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 /* CARD */
@@ -2076,30 +2086,30 @@
 .aim-event-highlight-card {
   background: #f7f7f7;
   border: 1px solid #d9d3ce;
-  padding: 50px 35px;
+  padding: 35px 28px;
   height: 100%;
   transition: 0.3s ease;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
 }
 
 .aim-event-highlight-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-5px);
 }
 
 /* ICON */
 
 .aim-event-highlight-icon {
-  width: 110px;
-  height: 110px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
   background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 35px;
+  margin: 0 auto 25px;
   color: #ff7f1f;
-  font-size: 44px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  font-size: 34px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* LINE */
@@ -2108,209 +2118,184 @@
   width: 100%;
   height: 1px;
   background: #d7d1cc;
-  margin-bottom: 35px;
+  margin-bottom: 24px;
 }
 
 /* CONTENT */
 
 .aim-event-highlight-card h3 {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.4;
   font-weight: 700;
   color: #3f3026;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 
 .aim-event-highlight-card p {
-  font-size: 18px;
-  line-height: 1.9;
+  font-size: 16px;
+  line-height: 1.8;
   color: #4e4138;
   margin-bottom: 0;
 }
 
 /* RESPONSIVE */
 
-@media (max-width: 1399px) {
-  .aim-event-highlights-title {
-    font-size: 60px;
-  }
-}
-
 @media (max-width: 1199px) {
   .aim-event-highlights-title {
-    font-size: 52px;
+    font-size: 42px;
   }
 
   .aim-event-highlight-card h3 {
-    font-size: 26px;
+    font-size: 22px;
   }
 }
 
 @media (max-width: 767px) {
   .aim-event-highlights-section {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .aim-event-highlights-title {
-    font-size: 38px;
-    margin-bottom: 45px;
+    font-size: 30px;
+    margin-bottom: 35px;
   }
 
   .aim-event-highlight-card {
-    padding: 35px 25px;
+    padding: 28px 22px;
   }
 
   .aim-event-highlight-icon {
-    width: 90px;
-    height: 90px;
-    font-size: 36px;
-    margin-bottom: 25px;
-  }
-
-  .aim-event-highlight-line {
-    margin-bottom: 25px;
+    width: 75px;
+    height: 75px;
+    font-size: 28px;
+    margin-bottom: 20px;
   }
 
   .aim-event-highlight-card h3 {
-    font-size: 24px;
-    margin-bottom: 18px;
+    font-size: 20px;
+    margin-bottom: 14px;
   }
 
   .aim-event-highlight-card p {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.7;
   }
 }
 
+/* ========================================================= */
+
 .aim-attend-section {
   background: #f3f1ef;
-  padding: 30px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
 /* TITLE */
 
 .aim-attend-title {
-  font-size: 72px;
+  font-size: 52px;
   line-height: 1.2;
   font-weight: 800;
   color: #3f3026;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 /* CARD */
 
 .aim-attend-card {
   background: #f6a05d;
-  padding: 40px;
+  padding: 30px;
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 25px;
   height: 100%;
   transition: 0.3s ease;
+  border-radius: 12px;
 }
 
 .aim-attend-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-5px);
 }
 
 /* ICON */
 
 .aim-attend-icon {
-  min-width: 170px;
-  width: 170px;
-  height: 170px;
+  min-width: 120px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #3f3026;
-  font-size: 65px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  font-size: 48px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 /* CONTENT */
 
 .aim-attend-content h3 {
-  font-size: 42px;
+  font-size: 28px;
   line-height: 1.3;
   font-weight: 700;
   color: #3f3026;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .aim-attend-content p {
-  font-size: 20px;
-  line-height: 1.9;
+  font-size: 17px;
+  line-height: 1.8;
   color: #4d4037;
   margin-bottom: 0;
 }
 
 /* RESPONSIVE */
 
-@media (max-width: 1399px) {
-  .aim-attend-title {
-    font-size: 60px;
-  }
-
-  .aim-attend-content h3 {
-    font-size: 34px;
-  }
-}
-
 @media (max-width: 1199px) {
-  .aim-attend-card {
-    padding: 30px;
-    gap: 25px;
-  }
-
-  .aim-attend-icon {
-    min-width: 140px;
-    width: 140px;
-    height: 140px;
-    font-size: 55px;
+  .aim-attend-title {
+    font-size: 42px;
   }
 
   .aim-attend-content h3 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .aim-attend-content p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 767px) {
   .aim-attend-section {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .aim-attend-title {
-    font-size: 38px;
-    margin-bottom: 45px;
+    font-size: 30px;
+    margin-bottom: 35px;
   }
 
   .aim-attend-card {
     flex-direction: column;
     text-align: center;
-    padding: 30px 25px;
+    padding: 25px 20px;
   }
 
   .aim-attend-icon {
-    min-width: 110px;
-    width: 110px;
-    height: 110px;
-    font-size: 42px;
+    min-width: 90px;
+    width: 90px;
+    height: 90px;
+    font-size: 34px;
   }
 
   .aim-attend-content h3 {
-    font-size: 26px;
-    margin-bottom: 15px;
+    font-size: 22px;
+    margin-bottom: 12px;
   }
 
   .aim-attend-content p {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.7;
   }
 }
