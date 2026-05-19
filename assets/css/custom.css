@@ -2299,3 +2299,388 @@
     line-height: 1.7;
   }
 }
+/* =========================================
+  PSY
+  PROGRAM
+  OVERVIEW
+  TABS
+  SECTION
+  ========================================= */
+.psy-overview-section {
+  padding: 40px 0;
+  background: #f7f8fc;
+}
+
+.psy-overview-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.psy-overview-heading h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+.psy-overview-heading p {
+  font-size: 17px;
+  color: #6b7280;
+  max-width: 750px;
+  margin: auto;
+}
+
+/* Tabs */
+.psy-tabs-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.psy-tabs-wrapper .nav-pills {
+  background: #fff;
+  padding: 10px;
+  border-radius: 60px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  gap: 10px;
+}
+
+.psy-tabs-wrapper .nav-link {
+  border-radius: 50px;
+  padding: 14px 35px;
+  font-weight: 600;
+  color: #111827;
+  border: none;
+  transition: 0.3s;
+}
+
+.psy-tabs-wrapper .nav-link.active {
+  background: #f3ae3c;
+  color: #111;
+}
+
+/* Card */
+.psy-overview-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+}
+
+.psy-track-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+.psy-track-box {
+  background: #f9fafb;
+  border-radius: 18px;
+  padding: 30px;
+  height: 100%;
+  border: 1px solid #ececec;
+  transition: 0.3s;
+}
+
+.psy-track-box:hover {
+  transform: translateY(-6px);
+}
+
+.psy-track-badge {
+  display: inline-block;
+  background: #f3ae3c;
+  color: #111;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.psy-track-box h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+.psy-overview-table {
+  width: 100%;
+}
+
+.psy-overview-table tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.psy-overview-table td {
+  padding: 14px 0;
+  vertical-align: top;
+  font-size: 15px;
+  color: #4b5563;
+}
+
+.psy-overview-table td:first-child {
+  width: 42%;
+  font-weight: 600;
+  color: #111827;
+}
+
+.psy-pg-list {
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+
+.psy-pg-list li {
+  margin-bottom: 12px;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .psy-overview-heading h2 {
+    font-size: 30px;
+  }
+
+  .psy-overview-card {
+    padding: 25px;
+  }
+
+  .psy-track-title {
+    font-size: 24px;
+  }
+
+  .psy-track-box {
+    padding: 25px;
+  }
+
+  .psy-tabs-wrapper .nav-link {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+.psy-program-section {
+  padding: 40px 0;
+  background: #f7f8fc;
+}
+
+.psy-program-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.psy-program-heading h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+.psy-program-heading p {
+  max-width: 800px;
+  margin: auto;
+  color: #6b7280;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.psy-main-card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 45px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
+}
+
+.psy-main-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #111827;
+}
+
+.psy-main-desc {
+  color: #4b5563;
+  font-size: 16px;
+  margin-bottom: 35px;
+  line-height: 1.8;
+}
+
+.psy-sub-card {
+  background: #f9fafb;
+  border: 1px solid #ececec;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.psy-badge {
+  display: inline-block;
+  background: #f3ae3c;
+  color: #111;
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.psy-sub-card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+.psy-info-table {
+  width: 100%;
+}
+
+.psy-info-table tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.psy-info-table td {
+  padding: 14px 0;
+  vertical-align: top;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+.psy-info-table td:first-child {
+  width: 40%;
+  font-weight: 600;
+  color: #111827;
+}
+
+.psy-session-box {
+  margin-top: 25px;
+}
+
+.psy-session-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+.psy-session-table {
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.psy-session-table th {
+  background: #111827;
+  color: #fff;
+  padding: 16px;
+  font-size: 15px;
+}
+
+.psy-session-table td {
+  padding: 16px;
+  border-bottom: 1px solid #ececec;
+  background: #fff;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+.psy-specialization-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid #ececec;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.psy-specialization-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.psy-specialization-card span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background: #f3ae3c;
+  border-radius: 50%;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.psy-specialization-card h5 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.psy-hands-box {
+  background: linear-gradient(135deg, #111827, #1f2937);
+  border-radius: 24px;
+  padding: 45px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.psy-hands-box h3 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.psy-hands-box p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+}
+
+.psy-hands-table {
+  width: 100%;
+}
+
+.psy-hands-table th {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  color: #fff;
+}
+
+.psy-hands-table td {
+  padding: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.psy-office-address {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .psy-program-heading h2,
+  .psy-main-title {
+    font-size: 30px;
+  }
+
+  .psy-main-card,
+  .psy-hands-box {
+    padding: 25px;
+  }
+
+  .psy-sub-card {
+    padding: 22px;
+  }
+
+  .psy-sub-card h3,
+  .psy-session-title {
+    font-size: 22px;
+  }
+
+  .psy-session-table {
+    min-width: 650px;
+  }
+}

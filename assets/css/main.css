@@ -1693,7 +1693,7 @@ span {
   position: absolute;
   top: 100%;
   inset-inline-start: 0;
-  min-width: 240px;
+  min-width: 330px;
   background: var(--white);
   padding: 20px 0;
   border-radius: 10px;
@@ -1718,7 +1718,7 @@ span {
   font-size: 16px;
   font-weight: 500;
   color: var(--header);
-  line-height: 38px;
+  line-height: 28px;
   padding: 0px 0px 0px 32px;
   padding-right: 22px;
   width: 100%;
