@@ -68,6 +68,9 @@ body {
     font-size: 14px;
   }
 }
+.text-justify {
+  text-align: justify;
+}
 
 ul {
   padding: 0;
